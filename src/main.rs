@@ -9,10 +9,4 @@ use std::fs::File;
 use std::io;
 use std::io::{BufRead, BufReader, ErrorKind, Write};
 
-fn main() {
-    struct Customer {
-        name: String,
-        address: String,
-        balance: f32,
-    }
-}
+fn main() {}
