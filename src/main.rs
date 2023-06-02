@@ -10,13 +10,9 @@ use std::io;
 use std::io::{BufRead, BufReader, ErrorKind, Write};
 
 fn main() {
-    let mut heroes = HashMap::new();
-
-    heroes.insert("Superman", "Clark Kent");
-    heroes.insert("Batman", "Bruce Wayne");
-    heroes.insert("The Flash", "Barry Allen");
-
-    for (k, v) in heroes.iter() {
-        println!("{} = {}", k, v);
+    struct Customer {
+        name: String,
+        address: String,
+        balance: f32,
     }
 }
